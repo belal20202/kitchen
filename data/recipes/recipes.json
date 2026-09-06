@@ -1,0 +1,159 @@
+[
+  {
+    "recipe_id": "burger",
+    "recipe_name": "Burger",
+    "ingredients": [
+      "bread",
+      "meat",
+      "cheese",
+      "tomato"
+    ],
+    "equipment_required": "grill",
+    "price": 12,
+    "preparation_time": 3.0,
+    "cooking_time": 8.0,
+    "unlock_level": 1,
+    "burn_grace_period": 4.0,
+    "icon_path": "res://assets/sprites/recipes/burger.svg"
+  },
+  {
+    "recipe_id": "french_fries",
+    "recipe_name": "French Fries",
+    "ingredients": [
+      "potato"
+    ],
+    "equipment_required": "fryer",
+    "price": 6,
+    "preparation_time": 2.0,
+    "cooking_time": 6.0,
+    "unlock_level": 1,
+    "burn_grace_period": 3.0,
+    "icon_path": "res://assets/sprites/recipes/french_fries.svg"
+  },
+  {
+    "recipe_id": "juice",
+    "recipe_name": "Fresh Juice",
+    "ingredients": [
+      "juice_fruit"
+    ],
+    "equipment_required": "juice_machine",
+    "price": 5,
+    "preparation_time": 1.5,
+    "cooking_time": 3.0,
+    "unlock_level": 1,
+    "burn_grace_period": 6.0,
+    "icon_path": "res://assets/sprites/recipes/juice.svg"
+  },
+  {
+    "recipe_id": "coffee",
+    "recipe_name": "Coffee",
+    "ingredients": [
+      "coffee_beans",
+      "milk"
+    ],
+    "equipment_required": "coffee_machine",
+    "price": 5,
+    "preparation_time": 1.0,
+    "cooking_time": 4.0,
+    "unlock_level": 1,
+    "burn_grace_period": 5.0,
+    "icon_path": "res://assets/sprites/recipes/coffee.svg"
+  },
+  {
+    "recipe_id": "chicken_meal",
+    "recipe_name": "Chicken Meal",
+    "ingredients": [
+      "chicken",
+      "rice",
+      "vegetables"
+    ],
+    "equipment_required": "oven",
+    "price": 18,
+    "preparation_time": 4.0,
+    "cooking_time": 10.0,
+    "unlock_level": 3,
+    "burn_grace_period": 4.0,
+    "icon_path": "res://assets/sprites/recipes/chicken_meal.svg"
+  },
+  {
+    "recipe_id": "pizza",
+    "recipe_name": "Pizza",
+    "ingredients": [
+      "bread",
+      "cheese",
+      "tomato",
+      "vegetables"
+    ],
+    "equipment_required": "oven",
+    "price": 20,
+    "preparation_time": 4.5,
+    "cooking_time": 12.0,
+    "unlock_level": 5,
+    "burn_grace_period": 4.0,
+    "icon_path": "res://assets/sprites/recipes/pizza.svg"
+  },
+  {
+    "recipe_id": "pasta",
+    "recipe_name": "Pasta",
+    "ingredients": [
+      "rice",
+      "tomato",
+      "cheese"
+    ],
+    "equipment_required": "grill",
+    "price": 16,
+    "preparation_time": 3.5,
+    "cooking_time": 9.0,
+    "unlock_level": 6,
+    "burn_grace_period": 4.0,
+    "icon_path": "res://assets/sprites/recipes/pasta.svg"
+  },
+  {
+    "recipe_id": "milkshake",
+    "recipe_name": "Milkshake",
+    "ingredients": [
+      "milk",
+      "chocolate",
+      "juice_fruit"
+    ],
+    "equipment_required": "juice_machine",
+    "price": 9,
+    "preparation_time": 2.0,
+    "cooking_time": 4.0,
+    "unlock_level": 8,
+    "burn_grace_period": 6.0,
+    "icon_path": "res://assets/sprites/recipes/milkshake.svg"
+  },
+  {
+    "recipe_id": "steak",
+    "recipe_name": "Steak",
+    "ingredients": [
+      "meat",
+      "vegetables",
+      "potato"
+    ],
+    "equipment_required": "grill",
+    "price": 25,
+    "preparation_time": 4.0,
+    "cooking_time": 13.0,
+    "unlock_level": 10,
+    "burn_grace_period": 3.5,
+    "icon_path": "res://assets/sprites/recipes/steak.svg"
+  },
+  {
+    "recipe_id": "dessert",
+    "recipe_name": "Chocolate Dessert",
+    "ingredients": [
+      "chocolate",
+      "milk",
+      "bread"
+    ],
+    "equipment_required": "oven",
+    "price": 14,
+    "preparation_time": 3.0,
+    "cooking_time": 9.0,
+    "unlock_level": 12,
+    "burn_grace_period": 4.0,
+    "icon_path": "res://assets/sprites/recipes/dessert.svg"
+  }
+]

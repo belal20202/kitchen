@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280">
+  <rect width="720" height="1280" fill="#AEE1F9"/>
+  <circle cx="600" cy="150" r="70" fill="#FFF3B0"/>
+  <ellipse cx="120" cy="200" rx="70" ry="30" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="180" cy="180" rx="60" ry="26" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="500" cy="260" rx="60" ry="24" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- Distant skyline -->
+  <rect x="0" y="380" width="90" height="260" fill="#7FB3D5"/>
+  <rect x="100" y="340" width="70" height="300" fill="#5499C7"/>
+  <rect x="620" y="360" width="100" height="280" fill="#7FB3D5"/>
+  <rect x="540" y="400" width="70" height="240" fill="#5499C7"/>
+
+  <!-- Ground -->
+  <rect x="0" y="640" width="720" height="640" fill="#D6E4E5"/>
+  <rect x="0" y="1040" width="720" height="240" fill="#B7C9CC"/>
+  <rect x="0" y="1040" width="720" height="14" fill="#98ACB0"/>
+
+  <!-- Restaurant 1: Burger -->
+  <g>
+    <rect x="30" y="760" width="150" height="280" rx="8" fill="#F5CBA7"/>
+    <rect x="30" y="760" width="150" height="40" fill="#C0392B"/>
+    <rect x="55" y="850" width="40" height="60" fill="#87CEEB"/>
+    <rect x="115" y="850" width="40" height="60" fill="#87CEEB"/>
+    <rect x="80" y="960" width="50" height="80" fill="#8C5A2B"/>
+    <text x="105" y="785" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Burger</text>
+  </g>
+
+  <!-- Restaurant 2: Pizza -->
+  <g>
+    <rect x="200" y="800" width="140" height="240" rx="8" fill="#F9E79F"/>
+    <rect x="200" y="800" width="140" height="40" fill="#27AE60"/>
+    <rect x="222" y="880" width="36" height="56" fill="#87CEEB"/>
+    <rect x="280" y="880" width="36" height="56" fill="#87CEEB"/>
+    <rect x="245" y="970" width="50" height="70" fill="#8C5A2B"/>
+    <text x="270" y="825" font-family="sans-serif" font-size="17" fill="#FFFFFF" text-anchor="middle">Pizza</text>
+  </g>
+
+  <!-- Restaurant 3: Coffee Shop (center, tallest) -->
+  <g>
+    <rect x="355" y="720" width="160" height="320" rx="8" fill="#D7BDE2"/>
+    <rect x="355" y="720" width="160" height="44" fill="#6C3483"/>
+    <rect x="380" y="820" width="44" height="60" fill="#87CEEB"/>
+    <rect x="445" y="820" width="44" height="60" fill="#87CEEB"/>
+    <rect x="410" y="940" width="55" height="100" fill="#8C5A2B"/>
+    <text x="435" y="748" font-family="sans-serif" font-size="17" fill="#FFFFFF" text-anchor="middle">Coffee</text>
+  </g>
+
+  <!-- Restaurant 4: Chicken -->
+  <g>
+    <rect x="530" y="800" width="140" height="240" rx="8" fill="#FAD7A0"/>
+    <rect x="530" y="800" width="140" height="40" fill="#E67E22"/>
+    <rect x="552" y="880" width="36" height="56" fill="#87CEEB"/>
+    <rect x="610" y="880" width="36" height="56" fill="#87CEEB"/>
+    <rect x="575" y="970" width="50" height="70" fill="#8C5A2B"/>
+    <text x="600" y="825" font-family="sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Chicken</text>
+  </g>
+
+  <!-- Street props -->
+  <rect x="0" y="1080" width="720" height="10" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="40" cy="1120" r="14" fill="#2ECC71"/>
+  <rect x="36" y="1130" width="8" height="40" fill="#7B4B2A"/>
+  <circle cx="680" cy="1120" r="14" fill="#2ECC71"/>
+  <rect x="676" y="1130" width="8" height="40" fill="#7B4B2A"/>
+</svg>

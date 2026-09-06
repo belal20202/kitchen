@@ -1,0 +1,74 @@
+[
+  {
+    "upgrade_id": "grill",
+    "display_name": "Grill",
+    "max_level": 3,
+    "base_cost": 60,
+    "cost_growth": 1.7,
+    "effect_description": "Cooking Time: 8s -> 6s -> 4s",
+    "effect_values": [8.0, 6.0, 4.0]
+  },
+  {
+    "upgrade_id": "oven",
+    "display_name": "Oven",
+    "max_level": 3,
+    "base_cost": 90,
+    "cost_growth": 1.7,
+    "effect_description": "Cooking Time: 12s -> 9s -> 6s",
+    "effect_values": [12.0, 9.0, 6.0]
+  },
+  {
+    "upgrade_id": "fryer",
+    "display_name": "Fryer",
+    "max_level": 3,
+    "base_cost": 50,
+    "cost_growth": 1.6,
+    "effect_description": "Cooking Time: 6s -> 4.5s -> 3s",
+    "effect_values": [6.0, 4.5, 3.0]
+  },
+  {
+    "upgrade_id": "coffee_machine",
+    "display_name": "Coffee Machine",
+    "max_level": 3,
+    "base_cost": 40,
+    "cost_growth": 1.6,
+    "effect_description": "Cooking Time: 4s -> 3s -> 2s",
+    "effect_values": [4.0, 3.0, 2.0]
+  },
+  {
+    "upgrade_id": "juice_machine",
+    "display_name": "Juice Machine",
+    "max_level": 3,
+    "base_cost": 40,
+    "cost_growth": 1.6,
+    "effect_description": "Cooking Time: 3s -> 2.2s -> 1.5s",
+    "effect_values": [3.0, 2.2, 1.5]
+  },
+  {
+    "upgrade_id": "restaurant",
+    "display_name": "Restaurant Ambience",
+    "max_level": 3,
+    "base_cost": 150,
+    "cost_growth": 1.8,
+    "effect_description": "Base Happiness +5% / +10% / +15%",
+    "effect_values": [0.05, 0.10, 0.15]
+  },
+  {
+    "upgrade_id": "storage",
+    "display_name": "Storage",
+    "max_level": 3,
+    "base_cost": 70,
+    "cost_growth": 1.6,
+    "effect_description": "Ingredient Capacity +10 / +20 / +30",
+    "effect_values": [10.0, 20.0, 30.0]
+  },
+  {
+    "upgrade_id": "customer_capacity",
+    "display_name": "Seating Capacity",
+    "max_level": 3,
+    "base_cost": 100,
+    "cost_growth": 1.7,
+    "effect_description": "Max Concurrent Orders +1 / +2 / +3",
+    "effect_values": [1.0, 2.0, 3.0]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "ingredient_id": "bread",
+    "ingredient_name": "Bread",
+    "requires_prep": false,
+    "prep_time": 0.5,
+    "restock_cost": 1,
+    "icon_path": "res://assets/sprites/ingredients/bread.svg"
+  },
+  {
+    "ingredient_id": "meat",
+    "ingredient_name": "Meat",
+    "requires_prep": true,
+    "prep_time": 1.5,
+    "restock_cost": 3,
+    "icon_path": "res://assets/sprites/ingredients/meat.svg"
+  },
+  {
+    "ingredient_id": "cheese",
+    "ingredient_name": "Cheese",
+    "requires_prep": false,
+    "prep_time": 0.5,
+    "restock_cost": 2,
+    "icon_path": "res://assets/sprites/ingredients/cheese.svg"
+  },
+  {
+    "ingredient_id": "tomato",
+    "ingredient_name": "Tomato",
+    "requires_prep": true,
+    "prep_time": 1.0,
+    "restock_cost": 1,
+    "icon_path": "res://assets/sprites/ingredients/tomato.svg"
+  },
+  {
+    "ingredient_id": "potato",
+    "ingredient_name": "Potato",
+    "requires_prep": true,
+    "prep_time": 1.2,
+    "restock_cost": 1,
+    "icon_path": "res://assets/sprites/ingredients/potato.svg"
+  },
+  {
+    "ingredient_id": "chicken",
+    "ingredient_name": "Chicken",
+    "requires_prep": true,
+    "prep_time": 1.5,
+    "restock_cost": 3,
+    "icon_path": "res://assets/sprites/ingredients/chicken.svg"
+  },
+  {
+    "ingredient_id": "rice",
+    "ingredient_name": "Rice",
+    "requires_prep": false,
+    "prep_time": 0.5,
+    "restock_cost": 1,
+    "icon_path": "res://assets/sprites/ingredients/rice.svg"
+  },
+  {
+    "ingredient_id": "vegetables",
+    "ingredient_name": "Vegetables",
+    "requires_prep": true,
+    "prep_time": 1.0,
+    "restock_cost": 1,
+    "icon_path": "res://assets/sprites/ingredients/vegetables.svg"
+  },
+  {
+    "ingredient_id": "coffee_beans",
+    "ingredient_name": "Coffee Beans",
+    "requires_prep": false,
+    "prep_time": 0.3,
+    "restock_cost": 2,
+    "icon_path": "res://assets/sprites/ingredients/coffee_beans.svg"
+  },
+  {
+    "ingredient_id": "juice_fruit",
+    "ingredient_name": "Fruit",
+    "requires_prep": true,
+    "prep_time": 0.8,
+    "restock_cost": 2,
+    "icon_path": "res://assets/sprites/ingredients/juice_fruit.svg"
+  },
+  {
+    "ingredient_id": "milk",
+    "ingredient_name": "Milk",
+    "requires_prep": false,
+    "prep_time": 0.3,
+    "restock_cost": 1,
+    "icon_path": "res://assets/sprites/ingredients/milk.svg"
+  },
+  {
+    "ingredient_id": "chocolate",
+    "ingredient_name": "Chocolate",
+    "requires_prep": false,
+    "prep_time": 0.5,
+    "restock_cost": 2,
+    "icon_path": "res://assets/sprites/ingredients/chocolate.svg"
+  }
+]

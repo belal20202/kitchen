@@ -1,0 +1,125 @@
+[gd_scene load_steps=3 format=3 uid="uid://mainmenu001"]
+
+[ext_resource type="Script" path="res://scripts/ui/MainMenu.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/city_street.svg" id="2"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Overlay" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(1, 1, 1, 0.35)
+
+[node name="TopBar" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+offset_top = 24.0
+offset_bottom = 90.0
+alignment = 2
+
+[node name="CoinsIcon" type="Label" parent="TopBar"]
+layout_mode = 2
+text = "🪙"
+
+[node name="CoinsLabel" type="Label" parent="TopBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "0"
+
+[node name="Spacer" type="Control" parent="TopBar"]
+custom_minimum_size = Vector2(24, 0)
+layout_mode = 2
+
+[node name="GemsIcon" type="Label" parent="TopBar"]
+layout_mode = 2
+text = "💎"
+
+[node name="GemsLabel" type="Label" parent="TopBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "0"
+
+[node name="Spacer2" type="Control" parent="TopBar"]
+custom_minimum_size = Vector2(32, 0)
+layout_mode = 2
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchor_left = 0.0
+anchor_top = 0.15
+anchor_right = 1.0
+offset_bottom = 60.0
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 42
+text = "Happy Kitchen Story"
+
+[node name="ButtonColumn" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchor_left = 0.5
+anchor_top = 0.35
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -160.0
+offset_right = 160.0
+theme_override_constants/separation = 16
+
+[node name="PlayButton" type="Button" parent="ButtonColumn"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 64)
+text = "Play"
+
+[node name="RestaurantsButton" type="Button" parent="ButtonColumn"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Restaurants"
+
+[node name="UpgradesButton" type="Button" parent="ButtonColumn"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Upgrades"
+
+[node name="ShopButton" type="Button" parent="ButtonColumn"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Shop"
+
+[node name="EmployeesButton" type="Button" parent="ButtonColumn"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Employees"
+
+[node name="AchievementsButton" type="Button" parent="ButtonColumn"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Achievements"
+
+[node name="SettingsButton" type="Button" parent="ButtonColumn"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+text = "Settings"
+
+[connection signal="pressed" from="ButtonColumn/PlayButton" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="ButtonColumn/RestaurantsButton" to="." method="_on_restaurants_pressed"]
+[connection signal="pressed" from="ButtonColumn/UpgradesButton" to="." method="_on_upgrades_pressed"]
+[connection signal="pressed" from="ButtonColumn/ShopButton" to="." method="_on_shop_pressed"]
+[connection signal="pressed" from="ButtonColumn/EmployeesButton" to="." method="_on_employees_pressed"]
+[connection signal="pressed" from="ButtonColumn/AchievementsButton" to="." method="_on_achievements_pressed"]
+[connection signal="pressed" from="ButtonColumn/SettingsButton" to="." method="_on_settings_pressed"]

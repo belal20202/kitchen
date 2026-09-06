@@ -1,0 +1,35 @@
+[
+  {
+    "employee_id": "chef_1",
+    "display_name": "Assistant Chef",
+    "role": "CHEF",
+    "base_speed_bonus": 0.10,
+    "speed_bonus_per_level": 0.04,
+    "max_level": 5,
+    "base_salary": 15,
+    "salary_growth_per_level": 0.2,
+    "hire_cost": 120
+  },
+  {
+    "employee_id": "waiter_1",
+    "display_name": "Waiter",
+    "role": "WAITER",
+    "base_speed_bonus": 0.08,
+    "speed_bonus_per_level": 0.03,
+    "max_level": 5,
+    "base_salary": 10,
+    "salary_growth_per_level": 0.2,
+    "hire_cost": 90
+  },
+  {
+    "employee_id": "cashier_1",
+    "display_name": "Cashier",
+    "role": "CASHIER",
+    "base_speed_bonus": 0.05,
+    "speed_bonus_per_level": 0.02,
+    "max_level": 5,
+    "base_salary": 8,
+    "salary_growth_per_level": 0.15,
+    "hire_cost": 70
+  }
+]

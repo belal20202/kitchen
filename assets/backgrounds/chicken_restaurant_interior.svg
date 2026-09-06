@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280">
+  <rect width="720" height="1280" fill="#FBE4C4"/>
+  <rect x="0" y="0" width="720" height="520" fill="#F6C878"/>
+  <rect x="60" y="80" width="180" height="220" rx="10" fill="#87CEEB" stroke="#B9770E" stroke-width="10"/>
+  <rect x="480" y="80" width="180" height="220" rx="10" fill="#87CEEB" stroke="#B9770E" stroke-width="10"/>
+  <circle cx="600" cy="140" r="46" fill="#FFF6D6" opacity="0.8"/>
+  <rect x="0" y="500" width="720" height="60" fill="#E67E22"/>
+  <rect x="0" y="500" width="720" height="14" fill="#B9770E"/>
+  <rect x="0" y="560" width="720" height="720" fill="#EAC38A"/>
+  <rect x="0" y="560" width="720" height="16" fill="#C9A05C"/>
+  <rect x="90" y="640" width="540" height="120" rx="18" fill="#A0522D"/>
+  <rect x="90" y="640" width="540" height="18" rx="9" fill="#B9673F"/>
+  <path d="M170 700 C160 700 158 690 166 686 C164 678 172 674 178 680 C186 676 194 684 190 692 C196 696 190 704 182 700 C178 706 172 706 170 700 Z" fill="#F2C572"/>
+  <path d="M470 700 C460 700 458 690 466 686 C464 678 472 674 478 680 C486 676 494 684 490 692 C496 696 490 704 482 700 C478 706 472 706 470 700 Z" fill="#F2C572"/>
+  <g opacity="0.9">
+    <circle cx="200" cy="900" r="70" fill="#F5CBA7"/>
+    <rect x="140" y="900" width="120" height="70" fill="#F5CBA7"/>
+    <ellipse cx="200" cy="970" rx="60" ry="14" fill="#000000" opacity="0.08"/>
+    <circle cx="180" cy="1030" r="18" fill="#5C4033"/>
+    <circle cx="220" cy="1030" r="18" fill="#5C4033"/>
+    <rect x="170" y="980" width="60" height="50" fill="#5C4033"/>
+  </g>
+  <g opacity="0.9">
+    <circle cx="520" cy="900" r="70" fill="#F5CBA7"/>
+    <rect x="460" y="900" width="120" height="70" fill="#F5CBA7"/>
+    <ellipse cx="520" cy="970" rx="60" ry="14" fill="#000000" opacity="0.08"/>
+    <circle cx="500" cy="1030" r="18" fill="#5C4033"/>
+    <circle cx="540" cy="1030" r="18" fill="#5C4033"/>
+    <rect x="490" y="980" width="60" height="50" fill="#5C4033"/>
+  </g>
+  <text x="360" y="600" font-family="sans-serif" font-size="36" font-weight="bold" fill="#FFF6D6" text-anchor="middle">Chicken Restaurant</text>
+</svg>

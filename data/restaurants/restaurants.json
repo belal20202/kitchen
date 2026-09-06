@@ -1,0 +1,97 @@
+[
+  {
+    "restaurant_id": "burger_restaurant",
+    "display_name": "Burger Restaurant",
+    "scene_path": "res://scenes/restaurant/BurgerRestaurant.tscn",
+    "required_total_stars": 0,
+    "music_key": "burger_restaurant",
+    "recipe_ids": [
+      "burger",
+      "french_fries",
+      "juice",
+      "coffee",
+      "chicken_meal"
+    ],
+    "equipment_ids": [
+      "grill",
+      "fryer",
+      "juice_machine",
+      "coffee_machine"
+    ],
+    "background_path": "res://assets/backgrounds/burger_restaurant_interior.svg"
+  },
+  {
+    "restaurant_id": "pizza_restaurant",
+    "display_name": "Pizza Restaurant",
+    "scene_path": "res://scenes/restaurant/PizzaRestaurant.tscn",
+    "required_total_stars": 12,
+    "music_key": "pizza_restaurant",
+    "recipe_ids": [
+      "pizza",
+      "pasta",
+      "juice",
+      "coffee"
+    ],
+    "equipment_ids": [
+      "oven",
+      "grill",
+      "juice_machine",
+      "coffee_machine"
+    ],
+    "background_path": "res://assets/backgrounds/pizza_restaurant_interior.svg"
+  },
+  {
+    "restaurant_id": "coffee_shop",
+    "display_name": "Coffee Shop",
+    "scene_path": "res://scenes/restaurant/CoffeeShop.tscn",
+    "required_total_stars": 24,
+    "music_key": "coffee_shop",
+    "recipe_ids": [
+      "coffee",
+      "milkshake",
+      "dessert"
+    ],
+    "equipment_ids": [
+      "coffee_machine",
+      "juice_machine",
+      "oven"
+    ],
+    "background_path": "res://assets/backgrounds/coffee_shop_interior.svg"
+  },
+  {
+    "restaurant_id": "chicken_restaurant",
+    "display_name": "Chicken Restaurant",
+    "scene_path": "res://scenes/restaurant/ChickenRestaurant.tscn",
+    "required_total_stars": 36,
+    "music_key": "chicken_restaurant",
+    "recipe_ids": [
+      "chicken_meal",
+      "steak",
+      "french_fries"
+    ],
+    "equipment_ids": [
+      "oven",
+      "grill",
+      "fryer"
+    ],
+    "background_path": "res://assets/backgrounds/chicken_restaurant_interior.svg"
+  },
+  {
+    "restaurant_id": "dessert_restaurant",
+    "display_name": "Dessert Restaurant",
+    "scene_path": "res://scenes/restaurant/DessertRestaurant.tscn",
+    "required_total_stars": 48,
+    "music_key": "dessert_restaurant",
+    "recipe_ids": [
+      "dessert",
+      "milkshake",
+      "coffee"
+    ],
+    "equipment_ids": [
+      "oven",
+      "juice_machine",
+      "coffee_machine"
+    ],
+    "background_path": "res://assets/backgrounds/dessert_restaurant_interior.svg"
+  }
+]

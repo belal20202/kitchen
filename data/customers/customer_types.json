@@ -1,0 +1,68 @@
+{
+  "NORMAL": {
+    "type_id": "NORMAL",
+    "display_name": "Normal",
+    "base_patience_seconds": 45.0,
+    "patience_decay_multiplier": 1.0,
+    "tip_multiplier": 1.0,
+    "payment_multiplier": 1.0,
+    "order_size": 1,
+    "spawn_weight": 1.0,
+    "portrait_path": "res://assets/sprites/customer_normal.svg"
+  },
+  "PATIENT": {
+    "type_id": "PATIENT",
+    "display_name": "Patient",
+    "base_patience_seconds": 70.0,
+    "patience_decay_multiplier": 0.7,
+    "tip_multiplier": 1.1,
+    "payment_multiplier": 1.0,
+    "order_size": 1,
+    "spawn_weight": 0.8,
+    "portrait_path": "res://assets/sprites/customer_patient.svg"
+  },
+  "IMPATIENT": {
+    "type_id": "IMPATIENT",
+    "display_name": "Impatient",
+    "base_patience_seconds": 25.0,
+    "patience_decay_multiplier": 1.5,
+    "tip_multiplier": 0.9,
+    "payment_multiplier": 1.0,
+    "order_size": 1,
+    "spawn_weight": 0.8,
+    "portrait_path": "res://assets/sprites/customer_impatient.svg"
+  },
+  "VIP": {
+    "type_id": "VIP",
+    "display_name": "VIP",
+    "base_patience_seconds": 40.0,
+    "patience_decay_multiplier": 1.0,
+    "tip_multiplier": 2.0,
+    "payment_multiplier": 1.5,
+    "order_size": 1,
+    "spawn_weight": 0.3,
+    "portrait_path": "res://assets/sprites/customer_vip.svg"
+  },
+  "FAMILY": {
+    "type_id": "FAMILY",
+    "display_name": "Family",
+    "base_patience_seconds": 55.0,
+    "patience_decay_multiplier": 0.9,
+    "tip_multiplier": 1.0,
+    "payment_multiplier": 1.0,
+    "order_size": 3,
+    "spawn_weight": 0.4,
+    "portrait_path": "res://assets/sprites/customer_family.svg"
+  },
+  "RUSH": {
+    "type_id": "RUSH",
+    "display_name": "Rush Customer",
+    "base_patience_seconds": 18.0,
+    "patience_decay_multiplier": 2.0,
+    "tip_multiplier": 1.3,
+    "payment_multiplier": 1.0,
+    "order_size": 1,
+    "spawn_weight": 0.3,
+    "portrait_path": "res://assets/sprites/customer_rush.svg"
+  }
+}

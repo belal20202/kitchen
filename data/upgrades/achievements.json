@@ -1,0 +1,93 @@
+[
+  {
+    "mission_id": "achv_serve_20",
+    "display_name": "Getting Started",
+    "description": "Serve 20 customers",
+    "kind": "ACHIEVEMENT",
+    "metric": "CUSTOMERS_SERVED",
+    "target_value": 20,
+    "reward_coins": 50,
+    "reward_gems": 0
+  },
+  {
+    "mission_id": "achv_serve_100",
+    "display_name": "Restaurant Regular",
+    "description": "Serve 100 customers",
+    "kind": "ACHIEVEMENT",
+    "metric": "CUSTOMERS_SERVED",
+    "target_value": 100,
+    "reward_coins": 200,
+    "reward_gems": 5
+  },
+  {
+    "mission_id": "achv_earn_1000",
+    "display_name": "Cha-Ching!",
+    "description": "Earn 1000 Coins",
+    "kind": "ACHIEVEMENT",
+    "metric": "COINS_EARNED",
+    "target_value": 1000,
+    "reward_coins": 100,
+    "reward_gems": 5
+  },
+  {
+    "mission_id": "achv_combo_10",
+    "display_name": "On Fire",
+    "description": "Reach Combo x10",
+    "kind": "ACHIEVEMENT",
+    "metric": "COMBO_REACHED",
+    "target_value": 10,
+    "reward_coins": 80,
+    "reward_gems": 3
+  },
+  {
+    "mission_id": "achv_stars_30",
+    "display_name": "Rising Star",
+    "description": "Earn 30 total stars",
+    "kind": "ACHIEVEMENT",
+    "metric": "STARS_EARNED",
+    "target_value": 30,
+    "reward_coins": 150,
+    "reward_gems": 10
+  },
+  {
+    "mission_id": "daily_serve_20",
+    "display_name": "Daily: Busy Day",
+    "description": "Serve 20 customers today",
+    "kind": "DAILY",
+    "metric": "CUSTOMERS_SERVED",
+    "target_value": 20,
+    "reward_coins": 40,
+    "reward_gems": 0
+  },
+  {
+    "mission_id": "daily_make_10_burgers",
+    "display_name": "Daily: Burger Time",
+    "description": "Make 10 Burgers",
+    "kind": "DAILY",
+    "metric": "RECIPE_MADE",
+    "target_value": 10,
+    "recipe_filter": "burger",
+    "reward_coins": 40,
+    "reward_gems": 0
+  },
+  {
+    "mission_id": "weekly_earn_1000",
+    "display_name": "Weekly: Big Earner",
+    "description": "Earn 1000 Coins this week",
+    "kind": "WEEKLY",
+    "metric": "COINS_EARNED",
+    "target_value": 1000,
+    "reward_coins": 150,
+    "reward_gems": 5
+  },
+  {
+    "mission_id": "weekly_3_stars",
+    "display_name": "Weekly: Star Chef",
+    "description": "Get 3 Stars on any level",
+    "kind": "WEEKLY",
+    "metric": "STARS_EARNED",
+    "target_value": 3,
+    "reward_coins": 100,
+    "reward_gems": 5
+  }
+]

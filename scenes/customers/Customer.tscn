@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://customerscene001"]
+
+[ext_resource type="Script" path="res://scripts/customers/Customer.gd" id="1"]
+
+[node name="Customer" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -30)
+scale = Vector2(0.6, 0.6)
+
+[node name="PatienceBarBg" type="ColorRect" parent="."]
+offset_left = -26.0
+offset_top = -78.0
+offset_right = 26.0
+offset_bottom = -70.0
+color = Color(0, 0, 0, 0.2)
+
+[node name="PatienceBar" type="ProgressBar" parent="."]
+unique_name_in_owner = true
+offset_left = -24.0
+offset_top = -77.0
+offset_right = 24.0
+offset_bottom = -71.0
+max_value = 1.0
+value = 1.0
+show_percentage = false
