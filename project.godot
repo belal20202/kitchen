@@ -1,0 +1,54 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Happy Kitchen Story"
+config/description="A cute cooking & restaurant management game. Serve customers, cook recipes, upgrade your kitchen, and grow your restaurant empire!"
+config/version="1.0.0"
+run/main_scene="res://scenes/main/MainMenu.tscn"
+config/features=PackedStringArray("4.2", "Mobile")
+config/icon="res://assets/sprites/icon.svg"
+boot_splash/bg_color=Color(1, 0.85, 0.4, 1)
+
+[autoload]
+
+GameManager="*res://autoload/GameManager.gd"
+SaveManager="*res://autoload/SaveManager.gd"
+AudioManager="*res://autoload/AudioManager.gd"
+EconomyManager="*res://autoload/EconomyManager.gd"
+LevelManager="*res://autoload/LevelManager.gd"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/handheld/orientation="portrait"
+window/energy_saving/keep_screen_on=true
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.98, 0.93, 0.8, 1)
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=false
