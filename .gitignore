@@ -1,0 +1,44 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+export.cfg
+export_credentials.cfg
+
+# Godot-specific build/import cache
+*.translation
+.mono/
+data_*/
+
+# Exported binaries and packages
+*.apk
+*.aab
+*.exe
+*.pck
+*.zip
+export/
+builds/
+
+# Android build artifacts (if Android Gradle build is used)
+android/build/
+android/.gradle/
+android/captures/
+android/local.properties
+*.keystore
+!debug.keystore
+
+# OS-specific temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Keep placeholder/asset source files but ignore generated import metadata
+*.import
