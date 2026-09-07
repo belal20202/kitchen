@@ -17,6 +17,7 @@ jobs:
   run-tests:
     name: Run GDScript unit tests
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout project
         uses: actions/checkout@v4
@@ -46,6 +47,7 @@ jobs:
     name: Build Android APK
     runs-on: ubuntu-latest
     needs: run-tests
+    timeout-minutes: 25
     steps:
       - name: Checkout project
         uses: actions/checkout@v4
@@ -61,6 +63,7 @@ jobs:
 
       - name: Install Android SDK components
         run: |
+          yes | sdkmanager --licenses || true
           sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
       - name: Cache Godot export templates
