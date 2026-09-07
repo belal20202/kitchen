@@ -35,10 +35,14 @@ func test_patience_depleted_signal_fires() -> void:
 	var customer := Customer.new()
 	customer.setup(type_data, [_make_recipe(10)])
 	customer.set_process(false)
-	var signal_fired := false
-	customer.patience_depleted.connect(func(_c): signal_fired = true)
+	# NOTE: GDScript lambdas capture outer local variables BY VALUE, not
+	# by reference - mutating a plain bool from inside the lambda would
+	# never be visible out here. An Array is a reference type, so this
+	# works reliably.
+	var signal_fired := [false]
+	customer.patience_depleted.connect(func(_c): signal_fired[0] = true)
 	customer.tick(6.0)
-	assert_true(signal_fired, "patience_depleted should fire once patience reaches 0")
+	assert_true(signal_fired[0], "patience_depleted should fire once patience reaches 0")
 	customer.free()
 
 func test_payment_and_tip_calculation() -> void:
