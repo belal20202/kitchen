@@ -17,7 +17,7 @@ const TEST_SCRIPTS := [
 	"res://tests/test_level.gd",
 ]
 
-func _init() -> void:
+func _initialize() -> void:
 	var total := 0
 	var failed := 0
 
